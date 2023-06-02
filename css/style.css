@@ -1,0 +1,63 @@
+
+
+body{
+    background-image: url(../imge/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+        font-family: "Alegreya Sans", sans-serif;
+        font-family: "Dancing Script";
+        font-family: "Edu SA Beginner";
+        font-family: "Poppins", sans-serif;
+        font-family: "Roboto", sans-serif;
+        font-family: "Work Sans", sans-serif;
+      
+    
+}
+
+.layer{
+  width:60%;
+	height: 100%;
+    position: absolute;
+    left: -15%;
+	transform: skew(-25deg);
+	
+    background-color: rgba(81, 128, 0, 0.595);
+}
+.content{
+    
+        transform: skew(25deg);
+        left: -5%;
+        position: relative;
+        
+      
+}
+
+.btn{
+    border-radius: 50rem;
+    border: 1px solid #0dcaf0;;
+}
+
+@media screen and  (max-width:990px){
+.layer{
+    
+    
+    transform: skew(-25deg);
+    left: -25%;
+    
+}
+.content{
+    
+    transform: skew(25deg);
+   width: 50%;
+    left: -3%;
+    
+    
+  
+}
+.btn2{
+    width:50% ;
+}
+}
