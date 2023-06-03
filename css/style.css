@@ -60,4 +60,12 @@ body{
 .btn2{
     width:50% ;
 }
+	.collapse ul{
+    background-color: rgba(0, 0, 0, 0.264);
+    width:40%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+   
+}
 }
