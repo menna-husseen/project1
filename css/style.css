@@ -45,7 +45,8 @@ body{
     
     
     transform: skew(-25deg);
-    left: -25%;
+    left: -30%;
+    width: 75%;
     
 }
 .content{
@@ -58,7 +59,7 @@ body{
   
 }
 .btn2{
-    width:50% ;
+    width:65% ;
 }
 	.collapse ul{
     background-color: rgba(0, 0, 0, 0.264);
